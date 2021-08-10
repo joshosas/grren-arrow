@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/080558a6a9.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>The Arrow</title>
+</head>
+<body>
+
+<!-- Navigation -->
+
+
+ <nav class="navbar navbar-expand-lg navbar-dark bg-arrowGreen sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="images/arrow-logo.png" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item px-4">
+            <a class="nav-link active" aria-current="page" href="#hero">Arrow</a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link" aria-current="page" href="#team-arrow">Team</a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link" href="#season-intro">Series</a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link" href="#arrowverse-heroes">Arrowverse</a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link" href="#support">Support</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+
+  <header id="arrow" class="arrow">
+    <div class="container-fluid header-content">
+      <div class="row">
+          <div class="col">
+              <div class="content-box text-center">
+                  <h4>Welcome</h4>
+                  <h1><span class="element"></span></h1>
+                  <h3>For Emergency: Alert <i class="fs-5 fa fa-arrow-down"></i></h3>
+                      <a href="#" class="mt-4 btn px-5" data-bs-toggle="modal" data-bs-target="#emergency"><h5>Tap</h5></a>
+              </div>
+          </div>
+      </div>
+  </div>
+  </header>
+
+  <!--  -->
+   <!-- Emergency Modal -->
+
+ <div class="modal fade" id="emergency" data-bs-backdrop="static" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="enroll">Contact Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="fs-5">Fill out your contact details now!</p>
+        <form>
+          <div class="mb-2">
+            <label for="recipient-name" class="col-form-label">Full Name:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-2">
+            <label for="recipient-email" class="col-form">Location:</label>
+            <input class="form-control" id="recipient-email">
+          </div>
+          <div class="mb-2">
+            <label for="recipient-Tel" class="col-form-label">Telephone:</label>
+            <input class="form-control" id="recipient-Tel">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger btn-emergency">Alert!</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--  -->
+
+  <!-- Hero Section -->
+
+  <Section id="hero" class="hero bg-light text-dark text-md-start p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class=" my-3 
+          text-light text-center"><span class="heading-style bg-arrowGreen py-1 px-4 my-4"> About Me</span></h2>
+          <p class="fs-6 my-4 text-arrowGreen">My name is Oliver Queen. I was stranded on an island with only one goal, <span class="text-danger fs-4 fw-bold">survive!</span> Now I will fulfill my father’s dying wish to use the list of names he left me and bring down those who are poisoning my city. <br>The day I went missing, was the day I died. Five years in hell forged me into a weapon which I use to honor a vow I made to my father, who sacrificed his life for mine. In his final moments, he told me that truth… That our family’s wealth had been built on the suffering of others. That he failed our city, and that it was up to me to save it and right his wrongs. But to do that without endangering the people closest to me, I have to be <span class="fs-5 fw-bold">someone else!</span>  I have to be <span class="fs-5 fw-bold">something else!</span></p>
+        </div>
+        <div class="col-md-6 ms-6 ps-5 pt-5">
+        <img class="mx-4" src="data:image/jpeg;base64,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" alt="Hero" >
+        <img class="ms-4" src="data:image/jpeg;base64,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" alt="Hero 2">
+        
+      </div>
+      </div>
+    </div>
+  </Section>
+
+   <!-- Team Arrrow -->
+ <section id="team-arrow" class="bg-arrowGreen p-5">
+  <div class="container">
+    <h2 class="text-center text-white my-4">Team Arrow</h2>
+    <p class="fs-5 text-center text-white mb-4">Now others have joined my crusade. To them, I am Oliver Queen. But to the rest of Starling City, I am someone else! I am something else!</p>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="card text-arrowGreen">
+          
+          <img src="images/J-Diggle.jpg" class="card-img-top rounded-circle mb-3" alt="Instructor 1">
+          <div class="card-body">
+            <h5 class="card-title">John Diggle</h5>
+            <p class="card-text">A.K.A. <span class="fs-5 fw-bold">Spartan:</span> Oliver's Right-hand man.</p>
+            <a href="#" class="btn bg-arrowGreen text-light rounded-circle"> <i class="fa fa-facebook-f"></i></a>
+            <a href="#" class="btn bg-arrowGreen text-light rounded-circle"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="btn bg-arrowGreen text-light rounded-circle"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="btn bg-arrowGreen text-light rounded-circle"><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          
+          <img src="images/Felicity Smoak.jpg" class="card-img-top rounded-circle mb-3" alt="Instructor 1">
+          <div class="card-body">
+            <h5 class="card-title">Felicity Smoak</h5>
+            <p class="card-text">A.K.A. <span class="fs-5 fw-bold">Overwatch:</span> Tech Specialist and Oliver's Wife</p>
+            <a href="#" class="btn bg-arrowGreen text-light rounded-circle"> <i class="fa fa-facebook-f"></i></a>
+            <a href="#" class="btn bg-arrowGreen text-light rounded-circle"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="btn bg-arrowGreen text-light rounded-circle"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="btn bg-arrowGreen text-light rounded-circle"><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          
+          <img src="images/Laura Lance2.jpg" class="card-img-top rounded-circle mb-3" alt="Instructor 1">
+          <div class="card-body">
+            <h5 class="card-title">Laura Lance</h5>
+            <p class="card-text">A.K.A. <span class="fs-5 fw-bold">Black Canary:</span> Star City's District Athorney</p>
+            <a href="#" class="btn bg-arrowGreen text-light rounded-circle"> <i class="fa fa-facebook-f"></i></a>
+            <a href="#" class="btn bg-arrowGreen text-light rounded-circle"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="btn bg-arrowGreen text-light rounded-circle"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="btn bg-arrowGreen text-light rounded-circle"><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          
+          <img src="images/Thea Queen.jpg" class="card-img-top rounded-circle mb-3" alt="Instructor 1">
+          <div class="card-body">
+            <h5 class="card-title">Thea Queen</h5>
+            <p class="card-text">A.K.A. <span class="fs-5 fw-bold">Speedy:</span> Oliver's sister</p>
+            <a href="#" class="btn bg-arrowGreen text-light rounded-circle"> <i class="fa fa-facebook-f"></i></a>
+            <a href="#" class="btn bg-arrowGreen text-light rounded-circle"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="btn bg-arrowGreen text-light rounded-circle"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="btn bg-arrowGreen text-light rounded-circle"><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+
+  <!-- Series Intro -->
+
+  <section id="season-intro" class="p-5">
+    <div class="container">
+      <div class="row">
+        <h2 class=" my-3 
+          text-light text-center"><span class="heading-style bg-arrowGreen mb-4 py-1 px-4"> Series Intro</span></h2>
+       <div class="accordion accordion-flush" id="season-intro">
+         <div class="accordion-item text-arrowGreen">
+           <h2 class="accordion-header my-4" id="season-1">
+             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+               Season 1
+             </button>
+           </h2>
+           <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="season-1" data-bs-parent="#season-intro">
+             <div class="accordion-body">My name is Oliver Queen. For five years I was “stranded” on an island with only one goal… survive. Now I will fulfill my father’s dying wish… to use a list of names he left me, to bring down those who are poisoning my city. From a life of excess to a life pursuing justice, to keep my loved ones safe, I must work in secret and pretend to be someone else. To do this, I must become someone else. I must become something else.<br>
+            <a href="https://www.youtube.com/watch?v=XQS7JkQmlx8"><button class="btn btn-sm bg-arrowGreen text-light heading-style"> Watch Trailer</button> </a></div>
+           </div>
+         </div>
+         <div class="accordion-item text-arrowGreen">
+           <h2 class="accordion-header" id="season-2">
+             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Season 2
+             </button>
+           </h2>
+           <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="season-2" data-bs-parent="#season-intro">
+             <div class="accordion-body">My name is Oliver Queen. After five years on a hellish island, I have come home with only one goal … to save my city. But to do so I can’t be the killer I once was. To honor my friend’s memory, I must be someone else. I must be something else. <br>
+             <a href="https://www.youtube.com/watch?v=2_H5AQXfSj0"><button class="btn btn-sm bg-arrowGreen text-light heading-style"> Watch Trailer</button> </a></div>
+             </div>
+         </div>
+         <div class="accordion-item text-arrowGreen">
+           <h2 class="accordion-header" id="season-3">
+             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Season 3
+             </button>
+           </h2>
+           <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="season-3" data-bs-parent="#season-intro">
+             <div class="accordion-body">My name is Oliver Queen. After five years in hell, I have come home with only one goal, to save my city. Now others have joined my crusade. To them, I am Oliver Queen. But to the rest of Starling City, I am someone else. I am something else. <br>
+             <a href="https://www.youtube.com/watch?v=YPrOIQtM2Zw"><button class="btn btn-sm bg-arrowGreen text-light heading-style"> Watch Trailer</button> </a></div>
+           </div>
+         </div>
+         <div class="accordion-item text-arrowGreen">
+           <h2 class="accordion-header" id="season-4">
+             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+              Season 4
+             </button>
+           </h2>
+           <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="season-4" data-bs-parent="#season-intro">
+             <div class="accordion-body">My name is Oliver Queen. After 5 years in hell, I have returned home with only one goal, to save my city. But my old approach wasn’t enough. I had to become someone else. I had to become something else and I had to become the Green Arrow. <br>
+              <a href="https://www.youtube.com/watch?v=2q3l4fMVCO8"><button class="btn btn-sm bg-arrowGreen text-light heading-style"> Watch Trailer</button> </a> </div>
+           </div>
+         </div>
+         <div class="accordion-item text-arrowGreen">
+           <h2 class="accordion-header" id="season-5">
+             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+              Season 5
+             </button>
+           </h2>
+           <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="season-5" data-bs-parent="#season-intro">
+             <div class="accordion-body">My name is Oliver Queen. After 5 years in hell, I have returned home with only one goal, to save my city. Today I fight that war on two fronts. By day I lead star city as its mayor but by night I am someone else, I am something else. I am the Green Arrow. <br>
+              <a href="https://www.youtube.com/watch?v=25eZwRNYsh0"><button class="btn btn-sm bg-arrowGreen text-light heading-style"> Watch Trailer</button> </a></div>
+           </div>
+         </div>
+         <div class="accordion-item text-arrowGreen">
+           <h2 class="accordion-header" id="season-6">
+             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseThree">
+              Season 6
+             </button>
+           </h2>
+           <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="season-6" data-bs-parent="#season-intro">
+             <div class="accordion-body">My name is Oliver Queen. After 5 years in hell, I have returned home with only one goal, to save my city. But I couldn’t honor that commitment and honor the promise I made to the mother of my son. So I asked the best man that I know to help. His name is John Diggle and he is the Green Arrow. <br>
+              Click <a href="https://www.youtube.com/watch?v=lOLK8-bzIbY"><button class="btn btn-sm bg-arrowGreen text-light heading-style"> Watch Trailer</button> </a></div>
+           </div>
+         </div>
+         <div class="accordion-item text-arrowGreen">
+           <h2 class="accordion-header" id="season-7">
+             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseThree">
+              Season 7
+             </button>
+           </h2>
+           <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="season-7" data-bs-parent="#season-intro">
+             <div class="accordion-body">My name is Oliver Queen. After six months in hell, I have been released from prison and returned home with only one goal, to save my city, but things have changed. Instead of operating outside the law, I am now working alongside the police. I am no longer Inmate 4587. I am once more the Green Arrow. <br>
+              <a href="https://www.youtube.com/watch?v=D5J9h0HPklE"><button class="btn btn-sm bg-arrowGreen text-light heading-style"> Watch Trailer</button> </a></div>
+           </div>
+         </div>
+         <div class="accordion-item text-arrowGreen">
+           <h2 class="accordion-header" id="season-8">
+             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseThree">
+              Season 8
+             </button>
+           </h2>
+           <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="season-8" data-bs-parent="#season-intro">
+             <div class="accordion-body">“My name is Oliver Queen. For 7 years I have fought with only one goal to save my city. But now a new threat has emerged. A danger so severe that it has forced me to leave my family in order to face it. And it won’t be enough to be just the Green Arrow. To prevent the crisis is coming, I am gonna have to become someone else, I’m going to become something else. <br>
+             <a href="https://www.youtube.com/watch?v=2yrviapP5uY"><button class="btn btn-sm bg-arrowGreen text-light heading-style"> Watch Trailer</button> </a></div>
+           </div>
+         </div>
+       </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Arrowverse Heroes -->
+
+  
+  <section id="arrowverse-heroes" class="bg-arrowGreen p-5">
+    <div class="container">
+      <h2 class="text-center text-white my-2 mb-4">Arrowverse Heroes</h2>
+      <div class="row">
+        
+        <div id="arrowCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#arrowCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#arrowCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#arrowCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#arrowCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/Flash.png" class="img-carousel d-block w-100" alt="The Flash">
+              <div class="carousel-caption fw-bolder fs-1">
+                <h3>The Flash</h3>
+                <p></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/Supergirl.png" class="img-carousel d-block w-100" alt="Supergirl">
+              <div class="carousel-caption fw-bolder fs-1">
+                <h3>Supergirl</h3>
+                <p></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/Legend of tomorrow.png" class="img-carousel d-block w-100" alt="Legends of Tomorrow">
+              <div class="carousel-caption fw-bolder fs-1">
+                <h3>Legends of Tomorrow</h3>
+                <p></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/Black Lightening.png" class="img-carousel d-block w-100" alt="Black Lightning">
+              <div class="carousel-caption fw-bolder fs-1">
+                <h3>Black Lightning</h3>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#arrowCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#arrowCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Support -->
+
+  <section id="support" class="p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+        <h2 class="text-light my-2 mb-4 text-start"><span class="heading-style bg-arrowGreen"> Keep Star City Safe</span></h2>
+        <ul class="list-group list-group-flush fs-5 text-arrowGreen">
+          <li class="list-group-item"><span class="fw-bold">Give security information through the Arrow channels.</span></li>
+          <li class="list-group-item"><span class="fw-bold">Report suspicious activities from your environment.</span></li>
+          <li class="list-group-item"><span class="fw-bold">Desist from criminal vices, do not pepertuate evil. </span></li>
+          <li class="list-group-item"><span class="fw-bold">Stay away from trouble, Stay Safe. </span></li>
+        </ul>
+        </div>
+        <div class="col-md-4  p-1">
+          <h2 class="text-center text-light my-2 mb-4 text-start"><span class="heading-style bg-arrowGreen">Arrow World</span> </h2>
+          <ul class="list-group list-group-flush fs-5 text-arrowGreen">
+            <li class="list-group-item"><span class="fw-bold"> </span>Join the Arrow Fan Base today!</li>
+            <li class="list-group-item"><span class="fw-bold">
+              <a href="#" class="btn bg-arrowGreen text-light rounded-circle"><i class="fa fa-facebook-f"></i></a>
+              Like us on Facebook</span></li>
+            <li class="list-group-item"><span class="fw-bold">
+              <a href="#" class="btn bg-arrowGreen text-light rounded-circle"><i class="fa fa-twitter"></i></a>
+              Follow us on Twitter </span></li>
+            <li class="list-group-item"><span class="fw-bold">
+              <a href="#" class="btn bg-arrowGreen text-light rounded-circle"><i class="fa fa-instagram"></i></a>
+              Follow us on Instagram </span></li>
+            
+          </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <Footer id="footer" class="bg-arrowGreen p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/arrow-logo.png" alt="Arrow Logo">
+        </div>
+        <div class="col-md-3">
+          <a class="nav-link text-light" href="#team-arrow"><h2>Team</h2></a>
+          <a class="nav-link text-light" href="#season-intro"><h2>Series</h2></a>
+ 
+        </div>
+        <div class="col-md-3">
+          <a class="nav-link text-light" href="#arrowverse-heroes"><h2>Arrowverse</h2></a>
+          <a class="nav-link text-light" href="#support"><h2>Support</h2></a>
+        </div>
+      </div>
+    </div>
+  </Footer>
+
+  <div class="container pt-2">
+    <div class="row bg-light text-arrowGreen text-center">
+      <p>&copy; Copyright @ 2021</p>
+      <hr class="fs-2">
+     <p>Designed & Developed by: <em class="fs-5 fw-bold"> jAA-Shoo-uh</em> </p>
+    </div>
+  </div>
+
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> 
+    <script src="lib/typed.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
